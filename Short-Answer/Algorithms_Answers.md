@@ -13,12 +13,22 @@ a)  # This is O(1)
     # Total time complexity is O(1 + n + 1) --> O(n)
 ```
 
+```
+b)  sum = 0
+    for i in range(n):
+      j = 1
+      while j < n:
+        j *= 2
+        sum += 1
+```
 
-b)
+```
+c)  def bunnyEars(bunnies):
+      if bunnies == 0:
+        return 0
 
-
-c)
-
+      return 2 + bunnyEars(bunnies-1)
+```
 ## Exercise II
 
 
